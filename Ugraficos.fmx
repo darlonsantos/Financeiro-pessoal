@@ -1,0 +1,398 @@
+object frm_graficos: Tfrm_graficos
+  Left = 0
+  Top = 0
+  ClientHeight = 581
+  ClientWidth = 411
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object VertScrollBox1: TVertScrollBox
+    Align = Client
+    Size.Width = 411.000000000000000000
+    Size.Height = 581.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 411.000000000000000000
+    Viewport.Height = 581.000000000000000000
+    object main_layout: TLayout
+      Align = Client
+      Size.Width = 411.000000000000000000
+      Size.Height = 581.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object ToolBar1: TToolBar
+        Size.Width = 411.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Image1: TImage
+          MultiResBitmap.Height = 600
+          MultiResBitmap.Width = 800
+          MultiResBitmap = <
+            item
+              Width = 800
+              Height = 600
+              PNG = {
+                89504E470D0A1A0A0000000D49484452000003200000025808060000009A7682
+                70000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                0C7149444154785EEDD73101803010C0C0073358AE36CCD0050BCD74B74443AE
+                67BDDF00000004EEBF000000C7191000002063400000808C0101000032060400
+                00C8181000002063400000808C010100003206040000C8181000002063400000
+                808C010100003206040000C8181000002063400000808C010100003206040000
+                C8181000002063400000808C010100003206040000C818100000206340000080
+                8C010100003206040000C8181000002063400000808C010100003206040000C8
+                181000002063400000808C010100003206040000C8181000002063400000808C
+                010100003206040000C8181000002063400000808C010100003206040000C818
+                1000002063400000808C010100003206040000C8181000002063400000808C01
+                0100003206040000C8181000002063400000808C010100003206040000C81810
+                00002063400000808C010100003206040000C8181000002063400000808C0101
+                00003206040000C8181000002063400000808C010100003206040000C8181000
+                002063400000808C010100003206040000C8181000002063400000808C010100
+                003206040000C8181000002063400000808C010100003206040000C818100000
+                2063400000808C010100003206040000C8181000002063400000808C01010000
+                3206040000C8181000002063400000808C010100003206040000C81810000020
+                63400000808C010100003206040000C8181000002063400000808C0101000032
+                06040000C8181000002063400000808C010100003206040000C8181000002063
+                400000808C010100003206040000C8181000002063400000808C010100003206
+                040000C8181000002063400000808C010100003206040000C818100000206340
+                0000808C010100003206040000C8181000002063400000808C01010000320604
+                0000C8181000002063400000808C010100003206040000C81810000020634000
+                00808C010100003206040000C8181000002063400000808C0101000032060400
+                00C8181000002063400000808C010100003206040000C8181000002063400000
+                808C010100003206040000C8181000002063400000808C010100003206040000
+                C8181000002063400000808C010100003206040000C818100000206340000080
+                8C010100003206040000C8181000002063400000808C010100003206040000C8
+                181000002063400000808C010100003206040000C8181000002063400000808C
+                010100003206040000C8181000002063400000808C010100003206040000C818
+                1000002063400000808C010100003206040000C8181000002063400000808C01
+                0100003206040000C8181000002063400000808C010100003206040000C81810
+                00002063400000808C010100003206040000C8181000002063400000808C0101
+                00003206040000C8181000002063400000808C010100003206040000C8181000
+                002063400000808C010100003206040000C8181000002063400000808C010100
+                003206040000C8181000002063400000808C010100003206040000C818100000
+                2063400000808C010100003206040000C8181000002063400000808C01010000
+                3206040000C8181000002063400000808C010100003206040000C81810000020
+                63400000808C010100003206040000C8181000002063400000808C0101000032
+                06040000C8181000002063400000808C010100003206040000C8181000002063
+                400000808C010100003206040000C8181000002063400000808C010100003206
+                040000C8181000002063400000808C010100003206040000C818100000206340
+                0000808C010100003206040000C8181000002063400000808C01010000320604
+                0000C8181000002063400000808C010100003206040000C81810000020634000
+                00808C010100003206040000C8181000002063400000808C0101000032060400
+                00C8181000002063400000808C010100003206040000C8181000002063400000
+                808C010100003206040000C8181000002063400000808C010100003206040000
+                C8181000002063400000808C010100003206040000C818100000206340000080
+                8C010100003206040000C8181000002063400000808C010100003206040000C8
+                181000002063400000808C010100003206040000C8181000002063400000808C
+                010100003206040000C8181000002063400000808C010100003206040000C818
+                1000002063400000808C010100003206040000C8181000002063400000808C01
+                0100003206040000C8181000002063400000808C010100003206040000C81810
+                00002063400000808C010100003206040000C8181000002063400000808C0101
+                00003206040000C8181000002063400000808C010100003206040000C8181000
+                002063400000808C010100003206040000C8181000002063400000808C010100
+                003206040000C8181000002063400000808C010100003206040000C818100000
+                2063400000808C010100003206040000C8181000002063400000808C01010000
+                3206040000C8181000002063400000808C010100003206040000C81810000020
+                63400000808C010100003206040000C8181000002063400000808C0101000032
+                06040000C8181000002063400000808C010100003206040000C8181000002063
+                400000808C010100003206040000C8181000002063400000808C010100003206
+                040000C8181000002063400000808C010100003206040000C818100000206340
+                0000808C010100003206040000C8181000002063400000808C01010000320604
+                0000C8181000002063400000808C010100003206040000C81810000020634000
+                00808C010100003206040000C8181000002063400000808C0101000032060400
+                00C8181000002063400000808C010100003206040000C8181000002063400000
+                808C010100003206040000C8181000002063400000808C010100003206040000
+                C8181000002063400000808C010100003206040000C818100000206340000080
+                8C010100003206040000C8181000002063400000808C010100003206040000C8
+                181000002063400000808C010100003206040000C8181000002063400000808C
+                010100003206040000C8181000002063400000808C010100003206040000C818
+                1000002063400000808C010100003206040000C8181000002063400000808C01
+                0100003206040000C8181000002063400000808C010100003206040000C81810
+                00002063400000808C010100003206040000C8181000002063400000808C0101
+                00003206040000C8181000002063400000808C010100003206040000C8181000
+                002063400000808C010100003206040000C8181000002063400000808C010100
+                003206040000C8181000002063400000808C010100003206040000C818100000
+                2063400000808C010100003206040000C8181000002063400000808C01010000
+                3206040000C8181000002063400000808C010100003206040000C81810000020
+                63400000808C010100003206040000C8181000002063400000808C0101000032
+                06040000C8181000002063400000808C010100003206040000C8181000002063
+                400000808C010100003206040000C8181000002063400000808C010100003206
+                040000C8181000002063400000808C010100003206040000C818100000206340
+                0000808C010100003206040000C8181000002063400000808C01010000320604
+                0000C8181000002063400000808C010100003206040000C81810000020634000
+                00808C010100003206040000C8181000002063400000808C0101000032060400
+                00C8181000002063400000808C010100003206040000C8181000002063400000
+                808C010100003206040000C8181000002063400000808C010100003206040000
+                C8181000002063400000808C010100003206040000C818100000206340000080
+                8C010100003206040000C8181000002063400000808C010100003206040000C8
+                181000002063400000808C010100003206040000C8181000002063400000808C
+                010100003206040000C8181000002063400000808C010100003206040000C818
+                1000002063400000808C010100003206040000C8181000002063400000808C01
+                0100003206040000C8181000002063400000808C010100003206040000C81810
+                00002063400000808C010100003206040000C8181000002063400000808C0101
+                00003206040000C8181000002063400000808C010100003206040000C8181000
+                002063400000808C010100003206040000C8181000002063400000808C010100
+                003206040000C8181000002063400000808C010100003206040000C818100000
+                2063400000808C010100003206040000C8181000002063400000808C01010000
+                3206040000C818100000206340000080C8CC06959F07484EA644D60000000049
+                454E44AE426082}
+              FileName = 'F:\99money\Images\Fundo-azul-bebe.jpg'
+            end>
+          Align = Client
+          Size.Width = 411.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          WrapMode = Stretch
+          object btn_voltar: TSpeedButton
+            Align = FitLeft
+            IconTintColor = claWhite
+            Size.Width = 48.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'replytoolbutton'
+            Text = 'btn_voltar'
+            OnClick = btn_voltarClick
+          end
+          object btn_atualizar: TSpeedButton
+            Align = FitRight
+            IconTintColor = claWhite
+            Position.X = 363.000000000000000000
+            Size.Width = 48.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'refreshtoolbutton'
+            Text = 'btn_atualizar'
+            OnClick = btn_atualizarClick
+          end
+          object lbl_graficos: TLabel
+            Align = Center
+            StyledSettings = [Family, Size, Style]
+            Size.Width = 227.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            Text = 'Grafico'
+          end
+        end
+      end
+      object DBChart1: TDBChart
+        BackWall.Pen.Visible = False
+        BottomWall.Brush.Kind = Gradient
+        BottomWall.Brush.Gradient.EndColor = claSilver
+        BottomWall.Brush.Gradient.StartColor = claGray
+        BottomWall.Brush.Gradient.Visible = True
+        BottomWall.Pen.Color = claGray
+        BottomWall.Pen.Fill.Color = claGray
+        BottomWall.Transparent = True
+        Foot.Font.Family = 'Roboto Th'
+        Gradient.Direction = gdFromTopLeft
+        Gradient.EndColor = claWhite
+        Gradient.StartColor = claSilver
+        LeftWall.Brush.Kind = Gradient
+        LeftWall.Brush.Gradient.EndColor = claSilver
+        LeftWall.Brush.Gradient.StartColor = claGray
+        LeftWall.Brush.Gradient.Visible = True
+        LeftWall.Color = claWhite
+        LeftWall.Pen.Color = claGray
+        LeftWall.Pen.Fill.Color = claGray
+        MarginLeft = 0
+        MarginRight = 0
+        MarginTop = 0
+        MarginUnits = muPixels
+        RightWall.Transparent = True
+        RightWall.Visible = True
+        SubFoot.Font.Family = 'Roboto Th'
+        SubTitle.Font.Family = 'Roboto Th'
+        Title.Font.Family = 'Roboto Th'
+        Title.Font.Size = 35.250000000000000000
+        Title.Font.Style = [fsBold]
+        Title.Font.Color = claBlack
+        Title.Font.Brush.Color = claBlack
+        Title.Font.Shadow.Color = claGray
+        Title.Font.Shadow.HorizSize = 1
+        Title.Font.Shadow.SmoothBlur = 2
+        Title.Font.Shadow.VertSize = 1
+        BottomAxis.Axis.Visible = False
+        BottomAxis.Grid.Color = x9FDDDDDD
+        BottomAxis.Grid.Fill.Color = x9FDDDDDD
+        BottomAxis.Grid.Visible = False
+        BottomAxis.LabelsFormat.Font.Family = 'Roboto Th'
+        BottomAxis.LabelsFormat.Font.Size = 18.000000000000000000
+        BottomAxis.LabelsFormat.Font.Color = claGray
+        BottomAxis.LabelsFormat.Font.Brush.Color = claGray
+        BottomAxis.MinorTicks.Visible = False
+        BottomAxis.Ticks.Color = claGray
+        BottomAxis.Ticks.Fill.Color = claGray
+        BottomAxis.TicksInner.Visible = False
+        BottomAxis.Title.Font.Family = 'Roboto Th'
+        BottomAxis.Title.Font.Size = 9.750000000000000000
+        DepthAxis.LabelsFormat.Font.Family = 'Roboto Th'
+        DepthAxis.Title.Font.Family = 'Roboto Th'
+        DepthAxis.Title.Font.Size = 9.750000000000000000
+        DepthTopAxis.LabelsFormat.Font.Family = 'Roboto Th'
+        DepthTopAxis.Title.Font.Family = 'Roboto Th'
+        DepthTopAxis.Title.Font.Size = 9.750000000000000000
+        Emboss.Direction = sdRightTop
+        Frame.Visible = False
+        LeftAxis.Axis.Visible = False
+        LeftAxis.Grid.Color = x9FDDDDDD
+        LeftAxis.Grid.Fill.Color = x9FDDDDDD
+        LeftAxis.LabelsFormat.Font.Family = 'Roboto Th'
+        LeftAxis.LabelsFormat.Font.Size = 18.000000000000000000
+        LeftAxis.LabelsFormat.Font.Color = claGray
+        LeftAxis.LabelsFormat.Font.Brush.Color = claGray
+        LeftAxis.MinorTicks.Visible = False
+        LeftAxis.TickLength = 7
+        LeftAxis.Ticks.Color = claGray
+        LeftAxis.Ticks.Fill.Color = claGray
+        LeftAxis.TicksInner.Visible = False
+        LeftAxis.Title.Font.Family = 'Roboto Th'
+        LeftAxis.Title.Font.Size = 9.750000000000000000
+        Legend.CurrentPage = False
+        Legend.Font.Family = 'Roboto Th'
+        Legend.Font.Size = 14.250000000000000000
+        Legend.Frame.Visible = False
+        Legend.Shadow.Visible = False
+        Legend.Symbol.Pen.Visible = False
+        Legend.Visible = False
+        Pages.ScaleLastPage = False
+        Panning.MouseWheel = pmwNone
+        RightAxis.Grid.Visible = False
+        RightAxis.LabelsFormat.Font.Family = 'Roboto Th'
+        RightAxis.LabelsFormat.Font.Size = 23.250000000000000000
+        RightAxis.LabelsFormat.Font.Color = claGray
+        RightAxis.LabelsFormat.Font.Brush.Color = claGray
+        RightAxis.MinorTicks.Visible = False
+        RightAxis.Ticks.Visible = False
+        RightAxis.Title.Font.Family = 'Roboto Th'
+        RightAxis.Title.Font.Size = 9.750000000000000000
+        TopAxis.LabelsFormat.Font.Family = 'Roboto Th'
+        TopAxis.Title.Font.Family = 'Roboto Th'
+        TopAxis.Title.Font.Size = 9.750000000000000000
+        View3DOptions.Elevation = 350
+        View3DOptions.Perspective = 55
+        Zoom.Brush.Kind = None
+        Zoom.Pen.Fill.Color = claSilver
+        Align = Client
+        BevelOuter = bvNone
+        BevelWidth = 3
+        Color = xFFFDFDFD
+        TabOrder = 1
+        Size.Width = 411.000000000000000000
+        Size.Height = 533.000000000000000000
+        Size.PlatformDefault = False
+        ColorPaletteIndex = -2
+        ColorPalette = (
+          4281578981
+          4289357516
+          4288269312
+          4294949683
+          4294919236
+          4278229452
+          4288230348
+          4284913920
+          4294936576
+          4291559424
+          4287153381
+          4291801566
+          4291624704
+          4294962321
+          4294949819)
+        object Series1: THorizBarSeries
+          BarPen.Visible = False
+          ColorEachPoint = True
+          Marks.Emboss.Clip = True
+          Marks.Font.Family = 'Roboto Th'
+          Marks.Font.Size = 18.000000000000000000
+          Marks.Shadow.Clip = True
+          Marks.Transparent = True
+          Marks.Margins.Left = 16
+          Marks.Style = smsPercent
+          Marks.Arrow.Visible = False
+          Marks.Callout.Arrow.Visible = False
+          Marks.Callout.ArrowHead = ahLine
+          Marks.Callout.Distance = 8
+          Marks.Callout.Length = 0
+          Marks.Clip = True
+          Marks.TextAlign = taLeftJustify
+          DataSource = cds_graficos
+          SeriesColor = x006699FF
+          XLabelsSource = 'DESCRICAO'
+          XValues.Name = 'Bar'
+          XValues.Order = loNone
+          XValues.ValueSource = 'VALOR'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+        end
+        object ChartAnimation1: TTeeAnimationTool
+          object TSeriesTransitionAnimation
+            Inverted = True
+            TwoWay = True
+            Chart = DBChart1
+          end
+        end
+      end
+    end
+  end
+  object dsp_provider: TDataSetProvider
+    DataSet = dm.qry_lancamento
+    Left = 80
+    Top = 192
+  end
+  object cds_graficos: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dsp_provider'
+    Left = 256
+    Top = 152
+    object ClientDataSet1ID_LANCAMENTO: TIntegerField
+      FieldName = 'ID_LANCAMENTO'
+      Origin = 'ID_LANCAMENTO'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+    end
+    object ClientDataSet1VALOR: TBCDField
+      FieldName = 'VALOR'
+      Origin = 'VALOR'
+      Precision = 8
+      Size = 2
+    end
+    object ClientDataSet1DATA: TDateTimeField
+      FieldName = 'DATA'
+      Origin = 'DATA'
+    end
+    object ClientDataSet1DESCRICAO: TStringField
+      FieldName = 'DESCRICAO'
+      Origin = 'DESCRICAO'
+      Size = 100
+    end
+    object ClientDataSet1ID_CATEGORIA: TIntegerField
+      FieldName = 'ID_CATEGORIA'
+      Origin = 'ID_CATEGORIA'
+    end
+    object ClientDataSet1TIPO_LANCAMENTO: TStringField
+      FieldName = 'TIPO_LANCAMENTO'
+      Origin = 'TIPO_LANCAMENTO'
+      Size = 1
+    end
+    object ClientDataSet1CATEGORIA: TStringField
+      FieldName = 'CATEGORIA'
+      Origin = 'DESCRICAO'
+      ProviderFlags = []
+      ReadOnly = True
+      Size = 50
+    end
+    object ClientDataSet1ICONE: TLargeintField
+      FieldName = 'ICONE'
+      Origin = 'ICONE'
+      ProviderFlags = []
+      ReadOnly = True
+    end
+  end
+  object progress: TfgActivityDialog
+    Message = 'Carregando...'
+    Left = 304
+    Top = 128
+  end
+end

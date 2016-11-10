@@ -1,0 +1,59 @@
+inherited frm_graficos_iPhone4in: Tfrm_graficos_iPhone4in
+  ClientHeight = 548
+  ClientWidth = 320
+  DesignerMasterStyle = 3
+  inherited VertScrollBox1: TVertScrollBox
+    Size.Width = 320.000000000000000000
+    Size.Height = 548.000000000000000000
+    Viewport.Width = 320.000000000000000000
+    Viewport.Height = 548.000000000000000000
+    inherited main_layout: TLayout
+      Size.Width = 320.000000000000000000
+      Size.Height = 548.000000000000000000
+      inherited ToolBar1: TToolBar
+        Size.Width = 320.000000000000000000
+        Size.Height = 44.000000000000000000
+        TintColor = claMediumblue
+        inherited Image1: TImage
+          MultiResBitmap.Height = 600
+          MultiResBitmap.Width = 800
+          Size.Width = 320.000000000000000000
+          Size.Height = 44.000000000000000000
+          inherited btn_voltar: TSpeedButton
+            Size.Width = 44.000000000000000000
+            Size.Height = 44.000000000000000000
+          end
+          inherited btn_atualizar: TSpeedButton
+            Position.X = 276.000000000000000000
+            Size.Width = 44.000000000000000000
+            Size.Height = 44.000000000000000000
+          end
+        end
+      end
+      inherited DBChart1: TDBChart
+        Size.Width = 320.000000000000000000
+        Size.Height = 504.000000000000000000
+        ColorPalette = (
+          4281578981
+          4289357516
+          4288269312
+          4294949683
+          4294919236
+          4278229452
+          4288230348
+          4284913920
+          4294936576
+          4291559424
+          4287153381
+          4291801566
+          4291624704
+          4294962321
+          4294949819)
+        inherited Series1: THorizBarSeries
+          BarBrush.Gradient.Direction = gdLeftRight
+          Gradient.Direction = gdLeftRight
+        end
+      end
+    end
+  end
+end
